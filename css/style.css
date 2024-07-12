@@ -314,6 +314,10 @@ footer {
     transform: translate(0, -0.65rem) rotate(45deg);
 }
 
+.about-map {
+    border: none;
+}
+
 /*Media Queries*/
 
 /*Extra Small (xs): Smartphone (portrait)*/
@@ -461,6 +465,10 @@ footer {
         display: block;
         font-size: 1.2rem;
         margin: 0.5rem;
+    }
+
+    footer {
+        display: none;
     }
     
     /* Outros estilos do menu hamburguer aqui */
